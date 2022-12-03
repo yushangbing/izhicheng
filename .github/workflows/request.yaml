@@ -3,7 +3,7 @@ name: request
 # Controls when the action will run.
 on:
   schedule:
-    - cron: '00 19,21,23 * * *'
+    - cron: '00 0,2,4,6 * * *'
   workflow_dispatch:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
